@@ -45,8 +45,7 @@ This Event Ticketing System provides a comprehensive solution for managing event
 - Handling of edge cases (e.g., overselling, capacity mismatches, concurrent purchases)
 
 **Notes & Assumptions**
--User authentication is not implemented to keep the focus on core ticketing logic
--Email notifications are out of scope for this exercise
+-User authentication is not implemented to keep the focus on core ticketing logic. Email notifications are out of scope for this exercise.
 
 ---
 
@@ -119,7 +118,7 @@ Rather than try/catch in every controller, exceptions are handled centrally and 
 
 ### 1. Clone the Repository
 
-git clone https://github.com/NimmiNarayananAK/EventTicketingSystem.git
+git clone https://github.com/NimmiNarayananAK/EventTicketingSystem.git <localdir>
 
 Open the project in Visual Studio
 
@@ -129,8 +128,9 @@ dotnet restore
 
 ### 3. Create the database
 
-Open **Package Manager Console** in Visual Studio and run:
+Open **Package Manager Console** in Visual Studio:
 
+Set the default Project in the console as EventTicketing.Infrastructure and run:
 Update-Database -Project EventTicketing.Infrastructure -StartupProject EventTicketing.API
 
 This will create the eventticketing.db (SQLite database) in the API project directory and seed it with initial data.
