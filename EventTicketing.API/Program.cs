@@ -24,18 +24,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
-//// Auto-apply migrations on startup
-//using (var scope = app.Services.CreateScope())
-//{
-//    var db = scope.ServiceProvider.GetRequiredService<EventTicketingDbContext>();
-//    db.Database.Migrate();
-//    // Ensure DB exists
-//    db.Database.EnsureCreated();
-
-//    // Run seed script
-//    DatabaseSeeder.SeedFromSql(db, Path.Combine(AppContext.BaseDirectory, "Data\\Migrations\\SQL Scripts", "InitialSeed.sql"));
-//}
-
 app.Run();
 
 public partial class Program { }
