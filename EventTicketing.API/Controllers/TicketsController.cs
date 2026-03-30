@@ -36,7 +36,11 @@ public class TicketsController : ControllerBase
                 Name = p.Name,
                 Price = p.Price,
                 Capacity = p.Capacity,
-                AvailableTickets = p.AvailableTickets
+                AvailableTickets = p.AvailableTickets,
+                MaxQuantityPerOrder = p.MaxQuantityPerOrder,
+                MinQuantityPerOrder = p.MinQuantityPerOrder,
+                TierType = p.TierType.ToString(),
+                SaleEndDate = p.SaleEndDate
             }).ToList()
         });
     }

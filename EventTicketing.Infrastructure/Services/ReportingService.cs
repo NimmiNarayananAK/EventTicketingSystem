@@ -24,13 +24,13 @@ public class ReportingService : IReportingService
     {
         var eventEntity = await _context.Events
             .Include(e => e.PricingTiers)
-            .Include(e => e.Tickets)
+            .Include(e => e.Tickets.Where(t => t.Status == Enums.TicketStatus.Active))
             .FirstOrDefaultAsync(e => e.Id == eventId)
             ?? throw new EventNotFoundException(eventId);
 
         var tierBreakdown = eventEntity.PricingTiers.Select(tier =>
         {
-            var tierTickets = eventEntity.Tickets.Where(t => t.PricingTierId == tier.Id && t.Status == Enums.TicketStatus.Active).ToList();
+            var tierTickets = eventEntity.Tickets.Where(t => t.PricingTierId == tier.Id).ToList();
             return new TierSalesSummary(
                 tier.Name,
                 tierTickets.Count,
@@ -57,7 +57,7 @@ public class ReportingService : IReportingService
         // Single query loads all events with related data — no N+1 queries
         var events = await _context.Events
             .Include(e => e.PricingTiers)
-            .Include(e => e.Tickets)
+            .Include(e => e.Tickets.Where(t => t.Status == Enums.TicketStatus.Active))
             .OrderBy(e => e.Date)
             .ToListAsync();
 
@@ -65,7 +65,7 @@ public class ReportingService : IReportingService
         {
             var tierBreakdown = e.PricingTiers.Select(tier =>
             {
-                var tierTickets = e.Tickets.Where(t => t.PricingTierId == tier.Id && t.Status == Enums.TicketStatus.Active).ToList();
+                var tierTickets = e.Tickets.Where(t => t.PricingTierId == tier.Id).ToList();
                 return new TierSalesSummary(
                     tier.Name,
                     tierTickets.Count,
