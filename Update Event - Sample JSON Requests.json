@@ -1,0 +1,43 @@
+// Update Existing Event 1
+{
+  "name": "Global Tech Conference 2026",
+  "description": "Updated: Expanded sessions and speakers",
+  "venue": "London Expo Center - Hall A",
+  "date": "2026-06-16T09:00:00Z",
+  "time": "09:00:00",
+  "totalCapacity": 1100,
+  "pricingTiers": [
+    {
+      "id": "11111111-aaaa-aaaa-aaaa-111111111111",
+      "name": "General",
+      "price": 110,
+      "capacity": 750,
+      "minQuantityPerOrder": 1,
+      "maxQuantityPerOrder": 10,
+      "tierType": 1,
+      "saleEndDate": "2026-06-15T00:00:00Z"
+    }
+  ]
+}
+
+// Update Existing Event 2
+{
+  "name": "Summer Music Festival 2026",
+  "description": "Updated lineup with international artists",
+  "venue": "Hyde Park Main Stage",
+  "date": "2026-07-11T15:00:00Z",
+  "time": "15:00:00",
+  "totalCapacity": 1600,
+  "pricingTiers": [
+    {
+      "id": "22222222-aaaa-aaaa-aaaa-222222222222",
+      "name": "General",
+      "price": 75,
+      "capacity": 1100,
+      "minQuantityPerOrder": 1,
+      "maxQuantityPerOrder": 15,
+      "tierType": 1,
+      "saleEndDate": "2026-07-10T00:00:00Z"
+    }
+  ]
+}

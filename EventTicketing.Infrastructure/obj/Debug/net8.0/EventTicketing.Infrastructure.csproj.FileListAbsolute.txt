@@ -1,0 +1,15 @@
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\EventTicketing.Infrastructure.csproj.AssemblyReference.cache
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\EventTicketing.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\EventTicketing.Infrastructure.AssemblyInfoInputs.cache
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\EventTicketing.Infrastructure.AssemblyInfo.cs
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\EventTicketing.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\bin\Debug\net8.0\EventTicketing.Infrastructure.deps.json
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\bin\Debug\net8.0\EventTicketing.Infrastructure.runtimeconfig.json
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\bin\Debug\net8.0\EventTicketing.Infrastructure.dll
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\bin\Debug\net8.0\EventTicketing.Infrastructure.pdb
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\EventTicketing.Infrastructure.dll
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\refint\EventTicketing.Infrastructure.dll
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\EventTicketing.Infrastructure.pdb
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\EventTicketing.Infrastructure.genruntimeconfig.cache
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\obj\Debug\net8.0\ref\EventTicketing.Infrastructure.dll
+C:\Learning\EventTicketing\EventTicketing.Infrastructure\bin\Debug\net8.0\Data\Migrations\SQL Scripts\Initial Seed.sql

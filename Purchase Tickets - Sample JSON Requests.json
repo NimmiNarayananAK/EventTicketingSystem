@@ -1,0 +1,15 @@
+//Purchase for Existing Event 1
+{
+  "pricingTierId": "33333333-aaaa-aaaa-aaaa-333333333333",
+  "quantity": 2,
+  "purchaserName": "Alice Johnson",
+  "purchaserEmail": "alice@example.com"
+}
+
+//Purchase for Existing Event 2
+{
+  "pricingTierId": "44444444-bbbb-bbbb-bbbb-444444444444",
+  "quantity": 1,
+  "purchaserName": "Bob Smith",
+  "purchaserEmail": "bob@example.com"
+}

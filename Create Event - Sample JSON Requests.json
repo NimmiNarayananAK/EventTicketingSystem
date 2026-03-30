@@ -1,0 +1,59 @@
+//Event 1
+{
+  "name": "Global Tech Conference",
+  "description": "Annual technology conference",
+  "venue": "London Expo Center",
+  "date": "2026-06-15",
+  "time": "09:00:00",
+  "totalCapacity": 1000,
+  "pricingTiers": [
+    { "name": "General", "price": 100, "capacity": 700, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 10, "tierType": 1 },
+    { "name": "VIP", "price": 250, "capacity": 200, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 5, "tierType": 2 },
+    { "name": "Early Bird", "price": 80, "capacity": 100, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 8, "tierType": 3, "saleEndDate": "2026-09-25T00:00:00Z" }
+  ]
+}
+
+//Event 2
+{
+  "name": "Gaming Expo",
+  "description": "Latest gaming tech and tournaments",
+  "venue": "Tokyo Dome",
+  "date": "2026-10-10T10:00:00Z",
+  "time": "10:00:00",
+  "totalCapacity": 1200,
+  "pricingTiers": [
+    { "name": "General", "price": 60, "capacity": 800, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 10, "tierType": 1 },
+    { "name": "VIP", "price": 200, "capacity": 200, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 5, "tierType": 2 },
+    { "name": "Early Bird", "price": 40, "capacity": 200, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 8, "tierType": 3, "saleEndDate": "2026-09-25T00:00:00Z" }
+  ]
+}
+
+//Event 3
+{
+  "name": "Health & Wellness Summit",
+  "description": "Fitness, yoga, and mental health sessions",
+  "venue": "Sydney Convention Center",
+  "date": "2026-11-05T09:00:00Z",
+  "time": "09:00:00",
+  "totalCapacity": 600,
+  "pricingTiers": [
+    { "name": "General", "price": 50, "capacity": 400, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 10, "tierType": 1 },
+    { "name": "VIP", "price": 120, "capacity": 100, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 4, "tierType": 2 },
+    { "name": "Early Bird", "price": 30, "capacity": 100, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 8, "tierType": 3, "saleEndDate": "2026-10-20T00:00:00Z" }
+  ]
+}
+
+//Event 4
+{
+  "name": "Shakespeare in the Park",
+  "description": "A live performance of Hamlet in an open-air theatre.",
+  "venue": "Hyde Park Theatre, London",
+  "date": "2026-07-05T00:00:00Z",
+  "time": "17:00:00",
+  "totalCapacity": 1500,
+  "pricingTiers": [
+    { "name": "General Seating", "price": 35, "capacity": 1000, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 6, "tierType": 1, "saleEndDate": "2026-07-04T00:00:00Z" },
+    { "name": "Premium Seating", "price": 90, "capacity": 200, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 4, "tierType": 2, "saleEndDate": "2026-07-01T00:00:00Z" },
+    { "name": "Early Bird", "price": 25, "capacity": 300, "minQuantityPerOrder": 1, "maxQuantityPerOrder": 6, "tierType": 3, "saleEndDate": "2026-06-01T00:00:00Z" }
+  ]
+}
