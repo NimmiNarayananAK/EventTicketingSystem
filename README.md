@@ -259,8 +259,9 @@ The API is stateless and horizontally scalable. Potential bottlenecks and future
 | Bottleneck | Solution |
 |---|---|
 | Ticket purchase contention | Introduce queue-based processing (e.g. Azure Service Bus) |
-| High read traffic | Add caching (e.g., Redis) with proper invalidation |
+| Wasted compute on cancelled requests | Propagate CancellationToken through all async operations |
 | SQLite single-writer limit | Migrate to PostgreSQL or SQL Server |
+| High read traffic | Add caching (e.g., Redis) with proper invalidation |
 | Reporting performance | Use pre-aggregated read models (CQRS) |
 | API protection           | Add rate limiting and API gateway support (Azure API Management) |
 
