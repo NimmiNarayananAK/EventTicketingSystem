@@ -270,12 +270,13 @@ The API is stateless and horizontally scalable. Potential bottlenecks and future
 ## Future Improvements
 
 1. **Authentication & user management** — JWT with role-based access (Organiser vs Attendee)
-2. **Introduce pagination & filtering for large datasets** — `GET /api/events?page=1&pageSize=20`
-3. **Email Notifications** — Ticket confirmation on purchase
-4. **Idempotency Keys** — Prevent duplicate purchases on network retry
-5. **Structured Logging** — Introduce Serilog with correlation IDs for traceability
-6. **Rate Limiting** — Protect purchase endpoints from abuse
-7. **Payment Integration**
+2. **Improve separation of concerns — Refactor services to follow single-responsibility principles and keep business logic modular and easier to maintain**
+3. **Introduce pagination & filtering for large datasets** — `GET /api/events?page=1&pageSize=20`
+4. **Email Notifications** — Ticket confirmation on purchase
+5. **Idempotency Keys** — Prevent duplicate purchases on network retry
+6. **Structured Logging** — Introduce Serilog with correlation IDs for traceability
+7. **Rate Limiting** — Protect purchase endpoints from abuse
+8. **Payment Integration**
 ---
 
 ## AI Tool Usage
